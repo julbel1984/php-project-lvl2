@@ -1,0 +1,17 @@
+{
+    "name": "julbel1984/php-project-lvl2",
+    "description": "Generate diff",
+    "type": "project",
+    "keywords": [
+        "hexlet",  
+        "hexlet project",
+        "generate diff"
+    ], 
+    "authors": [
+        {
+            "name": "julbel1984",
+            "email": "belashova1984@gmail.com"
+        }
+    ],
+    "require": {}
+}
