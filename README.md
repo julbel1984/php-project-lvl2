@@ -2,6 +2,8 @@
 
 Второй проект в рамках професии PHP-программист на [Хекслет](https://ru.hexlet.io/professions/php)
 
+[![Build Status](https://travis-ci.org/julbel1984/php-project-lvl2.svg?branch=master)](https://travis-ci.org/julbel1984/php-project-lvl2)
+
 ### Описание проекта
 
 В рамках данного проекта необходимо реализовать утилиту для поиска отличий в конфигурационных файлах.
