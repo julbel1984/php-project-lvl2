@@ -3,6 +3,9 @@
 Второй проект в рамках професии PHP-программист на [Хекслет](https://ru.hexlet.io/professions/php)
 
 [![Build Status](https://travis-ci.org/julbel1984/php-project-lvl2.svg?branch=master)](https://travis-ci.org/julbel1984/php-project-lvl2)
+[![Maintainability](https://api.codeclimate.com/v1/badges/21a857375482c60a5daa/maintainability)](https://codeclimate.com/github/julbel1984/php-project-lvl2/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/21a857375482c60a5daa/test_coverage)](https://codeclimate.com/github/julbel1984/php-project-lvl2/test_coverage)
+
 
 ### Описание проекта
 
