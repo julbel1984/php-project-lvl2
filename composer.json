@@ -23,5 +23,8 @@
     },
     "require": {
         "docopt/docopt": "^1.0"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
     }
 }
