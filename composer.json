@@ -13,5 +13,15 @@
             "email": "belashova1984@gmail.com"
         }
     ],
-    "require": {}
+    "bin": [
+        "bin/gendiff"
+    ],
+    "autoload": {
+        "files": [
+            "src/GenDiff.php"
+        ]
+    },
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
 }
