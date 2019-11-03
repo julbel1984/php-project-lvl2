@@ -18,7 +18,8 @@
     ],
     "autoload": {
         "files": [
-            "src/GenDiff.php"
+            "src/Cli.php",
+            "src/Differ.php"
         ]
     },
     "require": {
