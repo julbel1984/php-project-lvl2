@@ -20,5 +20,5 @@ DOC;
 
 function run()
 {
-    $args = \Docopt::handle(DOC);    
+    $args = \Docopt::handle(DOC);
 }
