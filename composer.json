@@ -1,5 +1,6 @@
 {
     "name": "julbel1984/php-project-lvl2",
+    "version": "1.0.0",
     "description": "Generate diff",
     "type": "project",
     "license": "MIT",
