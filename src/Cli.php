@@ -1,10 +1,12 @@
 <?php
 
-namespace GenDiff\Cli;
+namespace Differ\Cli;
 
-use function Gendiff\Differ\genDiff;
+use function Differ\genDiff;
 
-const DOC = <<<DOC
+function run()
+{
+    $doc = <<<DOC
 Generate diff
 
 Usage:
@@ -18,7 +20,10 @@ Options:
   --format <fmt>                Report format [default: pretty]
 DOC;
 
-function run()
-{
-    $args = \Docopt::handle(DOC);
+    $args = \Docopt::handle($doc);
+    
+    $firstFilePath = $args['<firstFile>'];
+    $secondFilePath = $args['<secondFile>'];
+    
+    echo genDiff(file_get_contents($firstFilePath), file_get_contents($secondFilePath)) . PHP_EQL;
 }
