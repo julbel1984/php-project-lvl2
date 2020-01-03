@@ -2,11 +2,9 @@
 
 namespace Differ\Cli;
 
-use function Differ\genDiff;
+use function Differ\Differ\genDiff;
 
-function run()
-{
-    $doc = <<<DOC
+const DOC = <<<DOC
 Generate diff
 
 Usage:
@@ -20,10 +18,13 @@ Options:
   --format <fmt>                Report format [default: pretty]
 DOC;
 
-    $args = \Docopt::handle($doc);
+function run()
+{
+    $args = \Docopt::handle(DOC, array('version' => "1.0.0", '<name>' => array('gendiff')));
+
+    $pathToFileFirst = $args['<firstFile>'];
+    $pathToFileSecond = $args['<secondFile>'];
     
-    $firstFilePath = $args['<firstFile>'];
-    $secondFilePath = $args['<secondFile>'];
-    
-    echo genDiff(file_get_contents($firstFilePath), file_get_contents($secondFilePath)) . PHP_EQL;
+    $differ = genDiff($pathToFileFirst, $pathToFileSecond);
+    print_r($differ);
 }
