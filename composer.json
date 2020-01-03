@@ -15,7 +15,7 @@
             "email": "belashova1984@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "bin": [
         "bin/gendiff"
     ],
