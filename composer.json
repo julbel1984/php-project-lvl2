@@ -2,6 +2,7 @@
     "name": "julbel1984/php-project-lvl2",
     "description": "Generate diff",
     "type": "project",
+    "license": "MIT",
     "keywords": [
         "hexlet",  
         "hexlet project",
