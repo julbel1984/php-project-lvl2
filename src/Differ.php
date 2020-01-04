@@ -47,9 +47,9 @@ function render($diff)
                         return ((trim($formattedString)[0] === "+")
                             || (trim($formattedString)[0] === "-"))
             ? rtrim($formattedString, " ") : $formattedString;
-        }, 
+        },
         $contentToArray
     );
 
-    return implode("\n", $formattedContent);    
+    return implode("\n", $formattedContent);
 }
