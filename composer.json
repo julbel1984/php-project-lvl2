@@ -21,8 +21,8 @@
     ],
     "autoload": {
         "files": [
-            "src/Cli.php",
-            "src/Differ.php"
+            "src/cli.php",
+            "src/differ.php"
         ],
         "psr-4":{
             "Differ\\": "src"
