@@ -27,4 +27,4 @@ Section "group2" deleted.
 ```
 
 ### Asciinema
-[![asciicast](https://asciinema.org/a/bdje8uUqmpCnTnTgd68QFJYLl.svg)](https://asciinema.org/a/bdje8uUqmpCnTnTgd68QFJYLl)
+[![asciicast](https://asciinema.org/a/0MHO2p17Q2x71wPcZaHTYqFKc.svg)](https://asciinema.org/a/0MHO2p17Q2x71wPcZaHTYqFKc)
