@@ -20,7 +20,7 @@ DOC;
 
 function run()
 {
-    $args = \Docopt::handle(DOC, array('version' => "1.0.1", '<name>' => array('gendiff')));
+    $args = \Docopt::handle(DOC, array('version' => "1.2.0", '<name>' => array('gendiff')));
 
     $pathToFileFirst = $args['<firstFile>'];
     $pathToFileSecond = $args['<secondFile>'];
