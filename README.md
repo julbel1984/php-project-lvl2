@@ -25,3 +25,6 @@ Setting "common.setting4" added with value "blah blah".
 Setting "group1.baz" changed from "bas" to "bars".
 Section "group2" deleted.
 ```
+
+### Asciinema
+[![asciicast](https://asciinema.org/a/bdje8uUqmpCnTnTgd68QFJYLl.svg)](https://asciinema.org/a/bdje8uUqmpCnTnTgd68QFJYLl)
