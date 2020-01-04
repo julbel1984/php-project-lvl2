@@ -33,11 +33,23 @@ function genDiff($firstFilePath, $secondFilePath)
         []
     );
 
-    $result = "{\n";
-    foreach ($diff as $key => $value) {
-        $result .= ' ' . $key . ': ' . json_encode($value) . "\n";
-    }
-    $result .= "}";
+    return render($diff);
+}
 
-    return $result;
+function render($diff)
+{
+    $contentToString = json_encode($diff, JSON_PRETTY_PRINT);
+    $contentToArray = explode("\n", $contentToString);
+     
+    $formattedContent = array_map(
+        function ($item) {
+            $formattedString = Strings\strip($item, '"', ",");
+                        return ((trim($formattedString)[0] === "+")
+                            || (trim($formattedString)[0] === "-"))
+            ? rtrim($formattedString, " ") : $formattedString;
+        }, 
+        $contentToArray
+    );
+
+    return implode("\n", $formattedContent);    
 }
